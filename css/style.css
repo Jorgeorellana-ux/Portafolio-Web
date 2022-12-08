@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+body{
+	font-family: 'Noto sans kr', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+header{
+    background-color: #eee;
+}
+
+
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+#yo{
+	background: #262626;
+	background-size: cover;
+	text-align: center;
+
+}
+
+#yo h1{
+	color: #fff;
+	margin-bottom: 30px;
+	margin-top: 100px;
+	text-align: left;
+	font-size: 45px;
+}
+
+#yo p{
+	color: #fff;
+	font-size: 19px;
+	text-align: left;
+}
+
+#yo h2{
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+
+#yo h3{
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 20px;
+}
+
+#yo .descripcion{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+}
+
+#servicios{
+	background-color: #262626;
+}
+#servicios h1{
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+}
+
+#servicios h3{
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#servicios p{
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+#servicios h2{
+	font-size: 17px;
+}
+
+.iconos i{
+	color: #fff;
+	font-size: 100px;
+	margin-top: 30px;
+}
+
+.iconos li{
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+}
+
+.iconos h2{
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	margin-top: -10px;
+}
+
+#portafolio h1{
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+}
+
+#portafolio{
+	background-color:  #262626;
+}
+
+#portafolio h3{
+
+	margin-top: 50px;
+	color: #FFFFFF;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+#portafolio p{
+	font-size: 20px;
+}
+
+#contacto{
+	background-color: #262626;
+}
+
+#contacto h1{
+	text-align: left;
+	margin-bottom: 30px;
+	color: #FFFFFF;
+
+}
+
+#contacto h2{
+	color: #FFFFFF;
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+#contacto p{
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+footer{
+	background-color: #262626;
+	color: #AEAEAE;
+	padding: 20px 0;
+	font-size: 13px;
+}
+
+.efecto {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow: auto;
+    background-color: rgba(0,0,0,9);
+}
+
+.contenido {
+    width: 80%;
+    margin: auto;
+    display: block;
+    max-width: 700px;
+}
+
+#eltexto {
+    width: 80%;
+    padding: 10px 0;
+    height: 150px;
+    margin: auto;
+    display: block;
+    max-width: 700px;
+    text-align: center;
+    color: #cccccc;
+}
+
+.contenido, #eltexto{
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom{
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+.cerrar {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.cerrar:hover, .cerrar:focus {
+    color: #bbbbbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:700px){
+    .contenido {
+        width: 100%
+    }
+}
+
+.efecto1 {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow: auto;
+    background-color: rgba(0,0,0,9);
+}
+
+.contenido {
+    width: 80%;
+    margin: auto;
+    display: block;
+    max-width: 700px;
+}
+
+#eltexto1 {
+    width: 80%;
+    padding: 10px 0;
+    height: 150px;
+    margin: auto;
+    display: block;
+    max-width: 700px;
+    text-align: center;
+    color: #cccccc;
+}
+
+.contenido, #eltexto1{
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom{
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+.cerrar {
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.cerrar:hover, .cerrar:focus {
+    color: #bbbbbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:700px){
+    .contenido {
+        width: 100%
+    }
+}
+
+#lafoto {
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+
+#lafoto:hover {
+    opacity: 0.7;
+}
+
+#lafoto1 {
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+
+#lafoto1:hover {
+    opacity: 0.7;
+}
